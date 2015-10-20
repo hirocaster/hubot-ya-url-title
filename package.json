@@ -1,0 +1,26 @@
+{
+  "name": "hubot-ya-url-title",
+  "version": "0.0.1",
+  "description": "post message url title",
+  "main": "src/hubot-ya-url-title",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/hirocaster/hubot-ya-url-title.git"
+  },
+  "keywords": [
+    "hubot"
+  ],
+  "author": "hirocaster",
+  "license": "MIT",
+  "homepage": "https://github.com/hirocaster/hubot-ya-url-title",
+  "dependencies": {
+    "cheerio": "^0.19.0",
+    "request": "~2.30.0",
+    "underscore": "~1.3.3",
+    "iconv": "~2.1.11",
+    "jschardet": "~1.3.0"
+  }
+}
