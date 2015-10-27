@@ -4,7 +4,7 @@
   "description": "post message url title",
   "main": "src/hubot-ya-url-title",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "gulp test"
   },
   "repository": {
     "type": "git",
