@@ -1,7 +1,7 @@
 Helper = require('hubot-test-helper')
 expect = require('chai').expect
 
-helper = new Helper('./../src/hubot-ya-url-title.coffee')
+helper = new Helper('./../src/')
 
 describe 'hello', ->
   room = null
@@ -14,9 +14,10 @@ describe 'hello', ->
 
   context 'user says hello', ->
     beforeEach ->
-      room.user.say 'alice', 'hello'
+      room.user.say 'alice', 'http://yahoo.co.jp'
 
     it 'should reply pong to user', ->
       expect(room.messages).to.eql [
-        ['alice', 'hello']
+        ['alice', 'http://yahoo.co.jp']
+        ['hubot', 'Yahoo! JAPAN']
       ]
